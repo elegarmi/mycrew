@@ -2,7 +2,13 @@ main {
     padding: 40px;
 }
 
-#avatares {
+main h3 {
+	font-size: 20px;
+	margin: 40px 0;
+	text-align: center;
+}
+
+#equipo .avatares {
     display: flex;
     justify-content: space-between;
     margin: 60px;
@@ -32,6 +38,25 @@ main {
 
 .avatar p {
     color: #fff;
+}
+
+#bye-bye {
+    background: #999;
+    padding: 20px;
+}
+
+#bye-bye h3 {
+    color: #ffffff;
+}
+
+#bye-bye .avatares {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+#bye-bye .avatar {
+    background: #666;
 }
 
 #herramientas {
